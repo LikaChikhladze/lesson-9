@@ -1,7 +1,10 @@
 /*  header  */
+body {
+  background-color: antiquewhite;
+}
 .bg-image {
   background-image: url(../images/header-image.jpg);
-  max-width: 1400px;
+  max-width: 1440px;
   width: 100%;
   height: 324px;
   background-repeat: no-repeat;
@@ -60,7 +63,7 @@
 }
 /* section2 */
 .conteiner-2 {
-  max-width: 1500px;
+  max-width: 1440px;
   width: 100%;
   height: 461px;
   display: flex;
@@ -75,23 +78,27 @@
   height: 388px;
 }
 .block-1 h5 {
-  width: 72px;
+  max-width: 72px;
+  width: 100%;
   height: 21px;
   font-size: 14px;
 }
 .block-1 h1 {
-  width: 353px;
+  max-width: 353px;
+  width: 100%;
   height: 114px;
   font-size: 42px;
 }
 .block-1 h4 {
-  width: 444px;
+  max-width: 444px;
+  width: 100%;
   height: 78px;
   font-size: 16px;
   font-weight: bold;
 }
 .block-1 p {
-  width: 444px;
+  max-width: 444px;
+  width: 100%;
   height: 84px;
   font-size: 14px;
 }
@@ -109,4 +116,15 @@
 }
 .child-box1 {
   margin-bottom: 12px;
+}
+/*  section 3 */
+
+.bg-image2 {
+  background-image: url(../images/section-image.jpg);
+  max-width: 1440px;
+  width: 100%;
+  height: 612px;
+  margin-top: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }

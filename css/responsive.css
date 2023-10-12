@@ -1,5 +1,5 @@
-@media (max-width:1185px) {
-  .block-2-2:last-child {
-    width: 100%;
+@media (max-width:900px) {
+  body {
+    background-color: aquamarine;
   }
 }
