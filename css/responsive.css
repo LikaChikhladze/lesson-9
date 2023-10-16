@@ -5,10 +5,7 @@
 }
 @media (max-width:1040px) {
   .block-4,
-  .block-wraper {
-    height: auto;
-  }
-  .bg-image2 {
+  .section-wraper {
     height: auto;
   }
   .boxes {
@@ -18,7 +15,9 @@
   .boxes:nth-child(2) {
     margin-bottom: 30px;
   }
-}
+  /* .bg-image2 {
+    height: auto; */
+  }
 
 @media (max-width:980px) {
   .fa-bars {
@@ -69,4 +68,8 @@
   .block-2 {
     height: auto;
   }
+}
+
+@media (max-widt:320px) {
+
 }
